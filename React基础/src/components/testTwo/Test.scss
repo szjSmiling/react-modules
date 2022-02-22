@@ -1,0 +1,72 @@
+/* child_test_div */
+.child_test_div{
+  overflow: hidden;
+  .child_test_text{
+    float: left;
+  }
+  .child_test_text:first-child{
+    padding-right: 30px;
+    border-right:1px solid #fff;
+  }
+  .child_test_text:last-child{
+    margin-left: 30px;
+  }
+}
+/* text_ul_list */
+.text_ul_list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  li{
+    flex:1;
+    background: #111;
+    margin-right: 30px;
+  }
+}
+.child_form{
+  label{
+    display:block;
+    padding:0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    user-select:none;
+  }
+  .label_reason{display: block;}
+  input, textarea{
+    padding-top:0;
+    padding-bottom:0;
+    margin-left: 10px;
+  }
+  textarea {
+    width:200px;
+    height:100px;
+    border-radius: 2px;
+    padding:10px;
+    box-sizing: border-box;
+    vertical-align: top;
+    &:focus{border-color:#0f0;}
+  }
+  select {
+    width:200px;
+    margin-left: 10px;
+    border-radius: 2px;
+    &:focus{border-color:#0f0;}
+  }
+  input[type=checkbox]{
+    width:30px;
+  }
+  input[type=number]{
+    padding-right: 0;
+  }
+  input[type=submit]{
+    width:80px;
+    margin-left: 0;
+    margin-top: 10px;
+    &:hover,&:active{
+      color:#fff;
+      background: #f00;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.two-page{
+  width:800px;
+  min-height: 100vh;
+  background-color: #282c34;
+  color:#fff;
+  padding-bottom: 100px;
+  *{
+    padding-bottom: 5px;
+    padding-top:5px;
+  }
+  .two-page-title{
+    padding:20px 0 0 10px;
+    margin-bottom: 0;
+    color:rgb(9, 184, 38);
+  }
+  .two-page-content{
+    margin-left:10px;
+  }
+  .two-page-btns{
+    button{ margin-left: 10px;padding:0 10px; }
+  }
+}

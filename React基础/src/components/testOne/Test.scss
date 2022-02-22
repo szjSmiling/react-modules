@@ -1,0 +1,32 @@
+// child_test scss
+.child_test{
+  border-bottom:1px solid #fff;
+}
+.child_test_title{
+  font-size: 20px;
+  color:rgb(97, 218, 251);
+}
+.child_test_text {
+  font-size: 18px;
+  margin-left: 10px;
+  .text_title{
+    color:#0f0;
+  }
+  span { color:#f00; }
+  p { line-height: 23px; }
+  p:before{
+    display: block;
+    content:"";
+    width:5px;
+    height:23px;
+    background: #999;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+  }
+} 
+.child_test_click{
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
